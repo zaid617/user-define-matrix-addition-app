@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(#6A67CE,#EEF3D2) ;
+    height: 100vh;
+}
+
+header{
+    border: 4px solid #EEF3D2;
+    color: #e1d3ff;
+    text-shadow: 0px 0px 13px black;
+    box-shadow: 0px 0px 15px 2px black;
+    margin: 15px;
+    padding: 20px;
+    font-size:25px;
+    text-transform: uppercase;
+}
+#form1{
+    border: 4px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+label{
+    font-weight: 800;
+    font-size: 28px;
+    text-decoration: underline;
+    text-shadow: 0px 0px 8px white;
+}
+#input_1,#input_2{
+    text-align: center;
+}
+#input_1::-webkit-outer-spin-button,
+#input_1::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#input_2::-webkit-outer-spin-button,
+#input_2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.box{
+    border: 7px solid #EEF3D2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+.sep{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+.btn{
+    width: 115px;
+    height: 40px;
+    margin-top: 5px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    background-color: #6A67CE;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: #3f3cab;
+    
+}
+#form2{
+    border: 4px solid black;
+    display: none;
+    padding: 15px;
+    margin: 15px;
+}
+.matBox{
+    display: flex;
+    align-items: center;
+}
+.matrix{
+    border: 4px solid #EEF3D2;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 14px 2px black;
+}
+
+#mat_2{
+    margin-left: 10px;
+}
+#result{
+    display: none;
+    margin-left: 10px;
+    padding: 35px;
+}
+#result span{
+    text-align: center;
+    width: 33px;
+    height: 33px;
+    margin: 8px;
+    border: 2px solid black;
+}
+.vals{
+    text-align: center;
+    width: 33px;
+    height: 33px;
+    margin: 8px;
+    border: 2px solid black;
+    
+}
+.value{
+    text-align: center;
+    margin: 8px;
+    font-size: 27px;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    
+}
+.vals::-webkit-outer-spin-button,
+.vals::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
