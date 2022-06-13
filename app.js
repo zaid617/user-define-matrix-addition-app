@@ -106,7 +106,7 @@ function calc() {
 
     for (let i = 0; i < input_1; i++) {
         
-        document.querySelector('#result').innerHTML="";
+        
         for (let j = 0; j < input_2; j++) {
             document.querySelector('#result').innerHTML += (`<strong id="div_${i}${j}" class="value" style="text-align:center;"></strong>`)
             
