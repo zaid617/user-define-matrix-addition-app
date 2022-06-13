@@ -22,6 +22,7 @@ function start() {
     else if(input_1==input_2)
     {
     // input boxes for 1st matrix
+         document.querySelector('#mat_1').innerHTML="";
     for (let i = 0; i < input_1; i++) {
         for (let j = 0; j < input_2; j++) {
             
@@ -33,6 +34,7 @@ function start() {
 
 
      // input boxes for 2nd matrix
+        document.querySelector('#mat_2').innerHTML = "";
     for (i = 0; i < input_1; i++) {
         for ( j = 0; j < input_2; j++) {
             
