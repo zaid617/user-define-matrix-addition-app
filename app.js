@@ -55,7 +55,9 @@ function start() {
 }
 
 else{
-    return;
+   else{
+    alert("Please Enter Same No. Of Rows And Columns....!")
+}
 }
 }
 
