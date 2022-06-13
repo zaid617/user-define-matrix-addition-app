@@ -76,9 +76,9 @@ function calc() {
    input_2 = Number(input_2);   
 
 //    initiallizing arrays
-    let mats_1=[[],[],[],[],[]];
-    let mats_2=[[],[],[],[],[]];
-    let result=[[],[],[],[],[]];
+   let mats_1=[[],[],[],[],[],[],[],[],[],[]];
+    let mats_2=[[],[],[],[],[],[],[],[],[],[]];
+    let result=[[],[],[],[],[],[],[],[],[],[]];
 
     // getting values from 1st matrix 
     for (let i = 0; i < input_1; i++) {
