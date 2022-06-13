@@ -55,9 +55,7 @@ function start() {
 }
 
 else{
-   else{
-    alert("Please Enter Same No. Of Rows And Columns....!")
-}
+    alert("Please Enter Same No. Of Rows And Columns");
 }
 }
 
@@ -78,9 +76,9 @@ function calc() {
    input_2 = Number(input_2);   
 
 //    initiallizing arrays
-   let mats_1 = [input_1] [input_1];
-    let mats_2 = [input_1] [input_1];
-    let result = [input_1] [input_1];
+    let mats_1=[[],[],[],[],[],[],[],[],[],[]];
+    let mats_2=[[],[],[],[],[],[],[],[],[],[]];
+    let result=[[],[],[],[],[],[],[],[],[],[]];
 
     // getting values from 1st matrix 
     for (let i = 0; i < input_1; i++) {
@@ -105,7 +103,6 @@ function calc() {
     }
 
     for (let i = 0; i < input_1; i++) {
-        
         
         for (let j = 0; j < input_2; j++) {
             document.querySelector('#result').innerHTML += (`<strong id="div_${i}${j}" class="value" style="text-align:center;"></strong>`)
