@@ -101,7 +101,7 @@ function calc() {
         }
         
     }
-
+document.querySelector('#result').innerHTML = "";
     for (let i = 0; i < input_1; i++) {
         
         for (let j = 0; j < input_2; j++) {
