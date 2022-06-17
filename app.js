@@ -3,6 +3,12 @@ function start() {
     // changing the display of form2 from none to block
     let display = document.querySelector('#form2')
 
+
+    // changing height of body
+    let body = document.querySelector('body');
+    body.style.height = '100%';
+
+    
     // target the values of rows and columns
    let input_1 = document.querySelector('#input_1').value;
    let input_2 = document.querySelector('#input_2').value;
