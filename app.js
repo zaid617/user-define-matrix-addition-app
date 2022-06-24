@@ -1,3 +1,26 @@
+function add(mats_1,mats_2) {
+    let input_1 = document.querySelector('#input_1').value;
+    let input_2 = document.querySelector('#input_2').value;
+ 
+ 
+     // changing the data type from string to number
+    input_1 = Number(input_1);    
+    input_2 = Number(input_2);   
+ 
+ //    initiallizing arrays
+    
+     let result=[[],[],[],[],[],[],[],[],[],[]];
+     // addition of martix 1 and 2
+     for ( i = 0; i < input_1; i++) {
+         for ( j = 0; j < input_2; j++) {
+             result[i][j] = mats_1[i][j] + mats_2[i][j];
+         }
+         
+     }
+     return result;
+}
+
+
 function start() {
     
     // changing the display of form2 from none to block
@@ -101,12 +124,8 @@ function calc() {
         
     }
     // addition of martix 1 and 2
-    for ( i = 0; i < input_1; i++) {
-        for ( j = 0; j < input_2; j++) {
-            result[i][j] = mats_1[i][j] + mats_2[i][j];
-        }
-        
-    }
+    result = add(mats_1,mats_2);
+
 document.querySelector('#result').innerHTML = "";
     for (let i = 0; i < input_1; i++) {
         
@@ -123,6 +142,7 @@ document.querySelector('#result').innerHTML = "";
         }
         
     }
+        
 
     console.log(mats_1);
     console.log(mats_2);
